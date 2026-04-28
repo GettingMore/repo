@@ -1,0 +1,21 @@
+{
+  "template_id": "adk-a2a-main-model-classification-v1",
+  "purpose": "Classify one agent request into an ADK/A2A boundary decision.",
+  "required_output_fields": [
+    "recommended_shape",
+    "reuse_bindings",
+    "shared_registration_proposals",
+    "retrofit_actions",
+    "a2a_required",
+    "a2a_interactions",
+    "internal_workflow",
+    "reasoning_summary",
+    "todo"
+  ],
+  "shape_options": [
+    "Specialist Agent",
+    "Shared Agent",
+    "Tool/Adapter",
+    "Metadata Registry"
+  ]
+}
